@@ -1,0 +1,12 @@
+neural networks learn from examples instead of following a fixed list of rules.
+when i explain neural networks to beginners, i usually start from a simple idea.
+the model sees an input, makes a prediction, compares that prediction with the answer, and then updates its weights.
+
+an image classifier can learn patterns from handwritten digits.
+a convolutional neural network can first look at local regions and then combine them into a larger understanding.
+a recurrent neural network can read a sequence step by step and keep part of the earlier context in memory.
+
+these examples are small on purpose.
+they are not meant to be state of the art systems.
+they are meant to make the training loop visible.
+once the training loop is clear, it becomes much easier to understand deeper models and modern architectures.
